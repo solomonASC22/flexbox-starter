@@ -1,0 +1,35 @@
+div{
+    display: flex;
+    border: 5px solid #4f7f2f;
+    margin: 50px;
+}
+
+div img{
+    width: 200px;
+    height: 200px;
+}
+
+#one{
+    background-color: aqua;
+    justify-content: center;
+}
+
+#two{
+    background-color: bisque;
+    justify-content: space-around;
+}
+
+#three{
+    background-color: violet;
+    justify-content: space-between;
+}
+
+#four{
+    background-color: yellow;
+    justify-content: space-evenly;
+}
+
+#five{
+    background-color: blueviolet;
+    flex-direction: column-reverse;
+}
